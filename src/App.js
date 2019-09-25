@@ -4,10 +4,12 @@ import Game from './Game/Game';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-          <Game />
-      </header>
+    <div className="container">
+      <div className="row">
+          <div className="col-lg-6 col-sm-6">
+              <Game />
+          </div>
+      </div>
     </div>
   );
 }
